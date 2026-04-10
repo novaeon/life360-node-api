@@ -1,0 +1,14 @@
+[project]
+name = "life360-py-port"
+version = "0.1.0"
+description = "Python port of life360-node-api"
+readme = "life360_py/README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31.0"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["life360_py"]
