@@ -51,3 +51,9 @@ for (const member of members) {
   console.log(`${member.location.latitude}, ${member.location.longitude}`)
 }
 ```
+
+## Python Port
+
+This repository now includes a full Python implementation in `life360_py/` that mirrors the Node.js client structure (login/session, circles, members, locations, and location/check-in requests).
+
+See `life360_py/README.md` for Python usage examples.
